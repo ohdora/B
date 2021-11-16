@@ -5,4 +5,4 @@ FROM python:3
 EXPOSE 8000
 
 # run the application
-CMD ["python", "./hello.py"]
+CMD ["python", "./cgi-bin/hello.py"]
